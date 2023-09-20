@@ -1,0 +1,45 @@
+.container {
+    border: 0px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   /* max-width: 400px; /* Ajuste a largura máxima conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    background-color: #fcddf4; /* Adicione uma cor de fundo se desejar */
+}
+
+.el {
+  border: 0px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3px;
+ /* max-width: 400px; /* Ajuste a largura máxima conforme necessário */
+  margin-left: 150px; /* Centraliza horizontalmente */
+  background-color: #fcddf4; /* Adicione uma cor de fundo se desejar */
+}
+#componente{
+  align-items: center;
+  text-align: center;   
+}
+#cout{
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}  
+#lis{
+  text-align: center;
+}
+
+#buttonout{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,36 @@
+body{
+background-color: rgb(49, 83, 113);
+}
+
+.app-item-dropdown{
+    font-size: 40px;
+}
+
+.drop{
+    font-family: 30px;
+}
+
+p {
+   font-size: 15px;  
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fbu{
+    margin-left: 410px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -81px;
+}
+
+.container {
+    border: 0px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   /* max-width: 400px; /* Ajuste a largura máxima conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    background-color: #fcddf4; /* Adicione uma cor de fundo se desejar */
+  }

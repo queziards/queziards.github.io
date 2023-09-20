@@ -1,0 +1,24 @@
+.acl{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   align-items: center;
+
+}
+
+.container {
+    border: 0px solid #ccc;
+    padding: 9px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+ 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   /* max-width: 400px; /* Ajuste a largura máxima conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    background-color: #fcddf4; /* Adicione uma cor de fundo se desejar */
+  }
+
+  

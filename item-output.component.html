@@ -1,0 +1,29 @@
+<!--<div class="container">
+    <app-product-list></app-product-list>
+    <app-item-dropdown></app-item-dropdown>
+  </div>-->
+
+  <div class="container d-flex justify-content-center">
+    <h6 id="componente">Adicione ao Carrinho:</h6>
+  </div>
+<!-- ngModel é um módulo do Angular que trata direto com o objeto
+  necessário acrescentar no app.module.ts: 
+  import { FormsModule } from '@angular/forms';
+no imports: FormsModule  -->
+<div class="container d-flex justify-content-center">
+ <label id="cout">Adicione um novo item fashion na lista: <input [(ngModel)]="valueItem" /></label>
+  <!-- o #newItem é similar a esta composição do modelo -->
+  <br/>
+ <button id="buttonout" (click)="addNewItem2()">Add item na lista</button>
+ <button id="buttonout" (click)="removeItens2()">Apagar</button>
+</div>
+
+
+<ul id="marker">
+    <div class="container d-flex justify-content-center el">
+      <li id="lis" *ngFor="let elemento2 of itens2">{{ elemento2 }}</li>
+      <!-- ngFor é um for no front que percorre a lista items, pegando o item do parâmetro -->
+    </div>
+</ul>
+
+

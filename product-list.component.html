@@ -1,0 +1,22 @@
+<div class="container d-flex justify-content-center">
+    <label class="acl" for="productSelect">Lista de Preços: </label>
+</div>
+
+
+<div class="container d-flex justify-content-center">
+    <select id="productSelect" [(ngModel)]="selectedProduct">
+      <option *ngFor="let product of products" [ngValue]="product">{{ product.name }}</option>
+    </select>
+</div>
+
+<div class="container d-flex justify-content-center">
+  <div *ngIf="selectedProduct">
+    <h6>Produto selecionado:</h6>
+    <p>Nome: {{ selectedProduct.name }}</p>
+    <p>Preço: R$ {{ selectedProduct.price }}</p>
+  </div>
+</div> 
+
+
+  
+  

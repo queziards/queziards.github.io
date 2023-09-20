@@ -1,0 +1,26 @@
+<div class="container d-flex justify-content-center">
+<select [(ngModel)]="select1" (change)="onChange()">
+    <option *ngFor="let i of itens" [value]="i.id">
+        {{i.nome}}
+    </option>
+</select>
+ 
+<select [(ngModel)]="select2" class = "rounded-inputs20 select-select col-md-3">
+    <option *ngFor="let m of modelos" [value]="m">
+        {{m}}
+    </option>
+</select>
+</div>
+<div class="container d-flex justify-content-center">
+<button class="fbu" (click)="clickbutton()">OK</button>
+</div>
+<div class="container d-flex justify-content-center">
+<p class="drop">Item escolhido: {{item}}</p><br>
+</div>
+<div class="container d-flex justify-content-center">
+<p class="drop">Modelo escolhido: {{modelo}}</p>
+</div>
+
+
+
+
